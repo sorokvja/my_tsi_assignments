@@ -12,9 +12,9 @@ int main() {
     printf("The value of alpha converted to radians is equal to %lf\n", alpha);
 
     double z1 = 2 * pow(sin(3 * pi - 2 * alpha), 2) * pow(cos(5 * pi + 2 * alpha), 2);
-    printf("z1 is equal to %lf\n", z1);
-
     double z2 = 0.25 - 0.25 * sin(2.5 * pi - 8.0 * alpha);
+    
+    printf("z1 is equal to %lf\n", z1);
     printf("z2 is equal to %lf\n", z2);
 
     printf("--- Check ---\n");
