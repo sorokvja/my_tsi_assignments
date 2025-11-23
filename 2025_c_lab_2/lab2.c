@@ -41,4 +41,6 @@ int main() {
         printf("result: No\n");
     }
 
+    return 0;
+
 }
